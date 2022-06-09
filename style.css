@@ -166,7 +166,9 @@ header {
   background-position: 620px 0px;
 }
 
+/* hero page */
 /* services page */
+
 .services {
   margin-top: 105px;
   text-align: center;
@@ -233,7 +235,6 @@ header {
 
 .category-item img {
   height: 100px;
-
 }
 
 .category-item__title {
@@ -250,6 +251,5 @@ header {
   line-height: 26px;
   color: #5E6282;
 }
-
 
 /* services page */
