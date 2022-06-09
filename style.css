@@ -253,3 +253,73 @@ header {
 }
 
 /* services page */
+
+/* destinations page start */
+.destinations {
+  margin-top: 135px;
+  text-align: center;
+  margin-bottom: 186px;
+}
+
+.destinations-subtitle {
+  margin: 0;
+  font-size: 18px;
+  line-height: 27px;
+  color: #5E6282;
+  text-transform: capitalize;
+  margin-bottom: 8px;
+}
+
+.destinations-title {
+  color: #14183E;
+  margin: 0;
+  font-size: 50px;
+  line-height: 64px;
+  text-transform: capitalize;
+  margin-bottom: 60px;
+}
+
+.destinations-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-image: url(/img/spiral.png);
+  background-position: 1132px 340px;
+}
+
+.destinations-item {
+  margin-right: 100px;
+  background-color: #fff;
+  border-radius: 0px 0px 25px 25px;
+  color: #5E6282;
+  filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02)) drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852)) drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)) drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01)) drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185)) drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
+}
+
+.destinations-item:last-child {
+  margin-right: 0px;
+}
+
+.destinations-item__info {
+  padding: 27px 25px 42px 20px;
+}
+
+.destinations-item__trip {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  line-height: 124.5%;
+}
+
+.destinations-item__days {
+  text-align: left;
+  font-size: 16px;
+  line-height: 124.5%;
+  background-repeat: no-repeat;
+  background-image: url(/img/arrow.png);
+  padding-left: 35px;
+}
+
+
+
+/* destinations page end */
