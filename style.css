@@ -320,6 +320,168 @@ header {
   padding-left: 35px;
 }
 
-
-
 /* destinations page end */
+
+/* booking page start */
+.booking {
+  margin-top: 186px;
+  margin-bottom: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.booking_info__subtitle {
+  margin: 0px;
+  font-size: 18px;
+  line-height: 27px;
+  color: #5E6282;
+  margin-bottom: 15px;
+}
+
+.booking_info__title {
+  margin: 0px;
+  font-size: 50px;
+  line-height: 64px;
+  color: #14183E;
+  text-transform: capitalize;
+  max-width: 511px;
+}
+
+.vaule_item {
+  font-size: 16px;
+  color: #5E6282;
+  display: flex;
+  justify-content: start;
+  align-content: center;
+  margin-top: 31px;
+  margin-bottom: 48px;
+}
+
+.vaule_item__info {
+  margin-left: 21px;
+}
+
+.vaule_item__title {
+  margin: 0px;
+  margin-bottom: 4px;
+}
+
+.vaule_item__text {
+  margin: 0px;
+}
+
+.booking-trip {
+  margin-top: 51px;
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+  border-radius: 26px;
+  max-height: 400px;
+}
+
+.booking-trip__conteiner {
+  padding: 20px 24px 31px 24px;
+}
+
+.booking-trip__title {
+  margin: 0px;
+  margin-top: 26px;
+  margin-bottom: 13px;
+  font-size: 18px;
+  line-height: 124.5%;
+  color: #080809;
+}
+
+.booking-trip__info {
+  margin: 0px;
+  color: #84829A;
+  font-style: 16px;
+}
+
+.booking-trip__options {
+  margin-top: 21px;
+}
+
+.options-item {
+  max-width: 36px;
+  max-height: 36px;
+  margin-right: 18px;
+}
+
+.options-item:last-child {
+  margin-right: 0px;
+}
+
+.booking-trip__sold {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sold-text {
+  margin: 0px;
+  font-size: 16px;
+  line-height: 124.5%;
+  color: #84829A;
+  background-repeat: no-repeat;
+  background-image: url(/img/Group\ \(2\).png);
+  padding-left: 36px;
+}
+
+.booking-trip {
+  position: relative;
+}
+
+.booking-trip__ongoing {
+  position: absolute;
+  background: #FFFFFF;
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+  border-radius: 18px;
+  width: 263px;
+  height: 102px;
+  left: 220px;
+  top: 206px;
+  display: flex;
+  align-items: start;
+  padding: 16px 25px 17px 15px;
+}
+
+.ongoing-text {
+  margin-left: 10px;
+}
+
+.ongoing-text__subtitle {
+  margin: 0px;
+  font-size: 14px;
+  line-height: 124.5%;
+  color: #84829A;
+}
+
+.ongoing-text__title {
+  margin: 0px;
+  font-size: 18px;
+  line-height: 124.5%;
+  color: #080809;
+  margin-top: 6px;
+}
+
+.ongoing-text__interest {
+  margin-top: 14px;
+  font-size: 14px;
+  line-height: 124.5%;
+  color: #080809;
+  margin-bottom: 10px;
+}
+
+.ongoing-total {
+  width: 156px;
+  height: 5px;
+  border-radius: 36px;
+  background: #F5F5F5;
+}
+
+.ongoing-total__purpure {
+  width: 73px;
+  height: 5px;
+  background: #8A79DF;
+}
+
+/* booking page end */
