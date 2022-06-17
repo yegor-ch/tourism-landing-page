@@ -616,3 +616,79 @@ header {
 }
 
 /* logos page end */
+/* contact-form page start */
+
+.form {
+  margin-bottom: 190px;
+  background: #DFD7F9;
+  border-radius: 129px 20px 20px 20px;
+  opacity: 80%;
+  padding: 79px 150px;
+  position: relative;
+}
+
+.form-plane__img {
+  position: absolute;
+  top: -25px;
+  right: -25px;
+}
+
+.form-title {
+  margin: 0px auto;
+  text-align: center;
+  font-size: 33px;
+  line-height: 54px;
+  color: #5E6282;
+  max-width: 859px;
+}
+
+.form-contact {
+  margin-top: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-contact__email {
+  width: 421px;
+  padding: 25px;
+  padding-left: 45px;
+  background: #FFFFFF;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  line-height: 17px;
+  margin-right: 24px;
+  background-repeat: no-repeat;
+  background-position: 15px center;
+  background-image: url(/img/Group\ 46.png);
+}
+
+.form-contact__subscribe {
+  background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
+  border-radius: 10px;
+  font-size: 17px;
+  line-height: 23px;
+  padding: 22px 50px;
+  border: none;
+  color: #FFFFFF;
+}
+
+.form::after {
+  display: block;
+  content: '';
+  height: 250px;
+  width: 250px;
+  top: 286px;
+  left: 62px;
+  position: absolute;
+  border-radius: 100% 100% 0 0;
+  border: 1px solid #6246E5;
+  z-index: -1;
+  opacity: 75%;
+  border-right: none;
+  border-left: none;
+  border-bottom: none;
+}
+
+/* contact-form page end */
