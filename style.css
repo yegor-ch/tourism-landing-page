@@ -625,17 +625,18 @@ header {
   opacity: 80%;
   padding: 79px 150px;
   position: relative;
-  position: relative;
 }
 
-.form-figure1 {
+.form-figure1::after {
+  content: url(/img/Mask\ Group\ \(1\).png);
   position: absolute;
   z-index: -1;
   top: 48px;
   left: -48px;
 }
 
-.form-figure2 {
+.form-figure2::after {
+  content: url(/img/Mask\ Group\ \(2\).png);
   position: absolute;
   z-index: -1;
   top: 25px;
