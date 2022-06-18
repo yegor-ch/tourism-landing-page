@@ -625,6 +625,21 @@ header {
   opacity: 80%;
   padding: 79px 150px;
   position: relative;
+  position: relative;
+}
+
+.form-figure1 {
+  position: absolute;
+  z-index: -1;
+  top: 48px;
+  left: -48px;
+}
+
+.form-figure2 {
+  position: absolute;
+  z-index: -1;
+  top: 25px;
+  right: 0px;
 }
 
 .form-plane__img {
@@ -672,23 +687,6 @@ header {
   padding: 22px 50px;
   border: none;
   color: #FFFFFF;
-}
-
-.form::after {
-  display: block;
-  content: '';
-  height: 250px;
-  width: 250px;
-  top: 286px;
-  left: 62px;
-  position: absolute;
-  border-radius: 100% 100% 0 0;
-  border: 1px solid #6246E5;
-  z-index: -1;
-  opacity: 75%;
-  border-right: none;
-  border-left: none;
-  border-bottom: none;
 }
 
 /* contact-form page end */
