@@ -754,9 +754,9 @@ header {
   justify-content: start;
   align-items: center;
   color: #FFFFFF;
-  padding: 7px 12px 7px 17px;
+  padding: 10px 17px 10px 17px;
   background-color: #080809;
-  border-radius: 15px;
+  border-radius: 25px;
 }
 
 .social__apps-text {
@@ -767,6 +767,7 @@ header {
 
 .footer-social__apps__links {
   margin-right: 7px;
+  font-size: 12px;
 }
 
 .apps-apple {
@@ -774,9 +775,9 @@ header {
   justify-content: start;
   align-items: center;
   color: #FFFFFF;
-  padding: 7px 12px 7px 17px;
+  padding: 10px 17px 10px 17px;
   background-color: #080809;
-  border-radius: 15px;
+  border-radius: 25px;
 }
 
 .apple_text {
@@ -805,6 +806,10 @@ header {
   padding: 12px;
   max-width: 17px;
   max-height: 17px;
+}
+
+.facebook-icon {
+  padding: 16px;
 }
 
 .footer-avtor {
