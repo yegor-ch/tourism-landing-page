@@ -1,0 +1,153 @@
+@media (max-width: 1050px) {
+  .nav-item__link {
+    display: none;
+  }
+
+
+  .nav-burger {
+    text-align: center;
+    max-width: 30px;
+    ;
+  }
+
+  .nav-burger__item {
+    display: block;
+    width: 30px;
+    height: 4px;
+    border: 1px solid #DF6951;
+    ;
+    margin-bottom: 5px;
+    background-color: #DF6951;
+    ;
+    cursor: pointer;
+  }
+
+  .nav-burger__item:last-child {
+    margin-bottom: 0px;
+  }
+
+  .hero {
+    background: none;
+  }
+
+  .hero-content {
+    margin: 0px auto;
+  }
+
+  .hero-desc {
+    margin: 0px auto;
+    font-size: 20px;
+  }
+
+  .hero-content {
+    margin: 0px auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-img {
+    display: none;
+  }
+
+  .hero-desc__text {
+    margin-top: 25px;
+    display: inline-block;
+    text-align: center;
+  }
+
+  .hero-desc__links {
+    margin: 0px auto;
+  }
+
+  .services {
+    margin: 0px auto;
+    text-align: center;
+  }
+
+  .services-category {
+    flex-direction: column;
+  }
+
+  .category-item {
+    margin-bottom: 50px;
+  }
+
+  .destinations {
+    align-items: center;
+  }
+
+
+  .destinations-section {
+    margin-left: 100px;
+    background: none;
+    flex-direction: column;
+
+  }
+
+  .destinations-item {
+    margin-bottom: 50px;
+  }
+
+  .booking {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .booking-trip__conteiner {
+    margin-right: 150px;
+  }
+
+  .response {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .response-info {
+    text-align: center;
+    margin: 0px;
+  }
+
+  .circles {
+
+    margin-bottom: 50px;
+  }
+
+  .logos {
+    flex-direction: column;
+  }
+
+  .form {
+    margin-bottom: 15px;
+  }
+
+  .footer {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .footer-page {
+    flex-direction: column;
+  }
+
+  .footer-logo {
+    margin: 0px auto;
+    margin-bottom: 15px;
+  }
+
+  .footer-links {
+    margin: 0px auto;
+    margin-bottom: 15px;
+  }
+
+  .social-links {
+    margin-bottom: 15px;
+    margin-left: 50px;
+  }
+
+  .footer-social {
+    margin-bottom: 15px;
+    margin: 0px auto;
+  }
+}
