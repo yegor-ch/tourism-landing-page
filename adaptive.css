@@ -1,0 +1,233 @@
+@media (max-width: 1050px) {
+  .nav-item__link {
+    display: none;
+  }
+
+
+  .nav-burger {
+    text-align: center;
+    max-width: 30px;
+  }
+
+  .nav-burger__item {
+    display: block;
+    width: 30px;
+    height: 4px;
+    border: 1px solid #DF6951;
+    margin-bottom: 5px;
+    background-color: #DF6951;
+    cursor: pointer;
+  }
+
+  .nav-item__button {
+    display: none;
+  }
+
+  .nav-item__select {}
+
+  header {
+    justify-content: center;
+  }
+
+  .nav {
+    justify-content: start;
+    margin-left: 70px;
+  }
+
+  .nav-burger__item:last-child {
+    margin-bottom: 0px;
+  }
+
+  .hero {
+    background: none;
+  }
+
+  .hero-content {
+    margin: 0px auto;
+  }
+
+  .hero-desc {
+    margin: 0px auto;
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+
+  .hero-content {
+    margin: 0px auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-img {
+    display: none;
+
+  }
+
+  .hero-desc__subtitle {
+    margin: 25px 0px;
+  }
+
+  .hero-desc__title {
+    font-size: 44px;
+    background-image: none;
+    margin: 0px auto;
+    display: block;
+    width: 500px;
+    line-height: 59px;
+  }
+
+  .hero-desc__text {
+    margin-top: 50px;
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 50px;
+  }
+
+  .hero-desc__links {
+    margin-top: 50px;
+    margin: 0px auto;
+    width: 500px;
+    height: auto;
+  }
+
+  .services {
+    margin: 0px auto;
+    text-align: center;
+    display: grid;
+  }
+
+  .services-title {
+    font-size: 34px;
+  }
+
+  .services-category {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    margin: 0px 100px
+  }
+
+  .category-item {
+    width: 250px;
+    margin-bottom: 50px;
+  }
+
+  .destinations {
+    margin-top: 0px;
+    align-items: center;
+    margin-bottom: 0px;
+  }
+
+  .destinations-title {
+    font-size: 34px;
+  }
+
+  .destinations-section {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+
+  .destinations-item {
+    margin-right: 0px;
+    margin-bottom: 50px;
+  }
+
+  .destinations-item3 {
+    margin-left: 99%;
+  }
+
+  .booking {
+    margin-top: 25px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+
+  .circles {
+    margin: 50px 0px;
+  }
+
+  .booking-trip__conteiner {
+    margin-right: 150px;
+  }
+
+  .response {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .response-info {
+    text-align: center;
+    margin: 0px;
+  }
+
+  .response-info__title {
+    font-size: 34px;
+  }
+
+  .booking_info__title {
+    font-size: 34px;
+    line-height: 44px;
+  }
+
+
+  .logos {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    margin-bottom: 25px;
+  }
+
+  .logos-item {
+    width: 250px;
+  }
+
+  .logos-item5 {
+    margin-left: 99%;
+  }
+
+  .form {
+    margin: 25px 150px;
+  }
+
+  .footer {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .form-title {
+    font-size: 23px;
+    line-height: 34px;
+  }
+
+  .footer-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    align-items: center;
+    accent-color: center;
+  }
+
+  .footer-logo {
+    margin: 0px auto;
+  }
+
+  .footer-social {
+    width: 320px;
+    margin-left: 110%;
+  }
+
+  .social-links {
+    margin-left: 50px
+  }
+
+  .footer-social__apps {
+    margin-top: 15px;
+  }
+}
